@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(207, 184, 241);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img,video{
+    width: 300px ;
+    height:400px;
+
+}
+hr{
+    border: 1px solid;
+    border-color:rgb(14, 14, 14);
+    width: 35%;
+}
+/*Abaixo estamos estilizando o icone por meio da classe do comando usando o ponto (.) antes do nome*/
+.icone{
+    border-radius:50%; /*Arredondar as bordas do elemento*/
+    width: 50px;
+    height:50px;
+}
+section {
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+    margin:10%; /*Define o espaço entre o limite da página web e os elementos contidos nela*/
+    padding: 5%; /*Define o espaço entre o conteúdo do site e o elemento em que ele está contido*/
+ }
+ .ladoalado{
+    display: flex; /*Usa um layout flexível para alinhar os elementos*/
+    align-items: center; /*Alinhamento vertical dos itens*/
+    justify-content: center; /*Alinhamento horizontal dos itens*/
+    gap: 1rem; /*Espaço entre os elementos*/
+}
+.ladoalado2{
+    width: 100%;
+    background-color: rgb(115, 65, 134);
+    display: flex; /*Usa um layout flexível para alinhar os elementos*/
+    position: fixed;
+    z-index: 1;
+    align-items: center; /*Alinhamento vertical dos itens*/
+    gap: 1rem; /*Espaço entre os elementos*/
+    margin-top: -10%;
+}
+
+.menu-item{
+    text-decoration: none;/*Retira o traço abaixo do link*/
+    color: rgba(0, 0, 0, 0.973);
+    font-weight: bold;/*Define o texto como negrito*/
+    gap:10px;
+}
+.menu-item:hover{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
